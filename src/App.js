@@ -94,6 +94,7 @@ function App() {
      
     <div className="container">
       <Header onAdd = {() => setShowAddTask(!showAddTask)} title = "Header" showAdd = {showAddTask}/> 
+      </div>
       <Routes>
       <Route path ='/' 
       element ={<>
@@ -108,7 +109,7 @@ function App() {
       <Route path ='/about' element = {<About/>} />
       </Routes>
       <Footer />
-      </div>
+
 
   </Router>
 
