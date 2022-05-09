@@ -96,7 +96,7 @@ function App() {
       <Header onAdd = {() => setShowAddTask(!showAddTask)} title = "Header" 
       showAdd = {showAddTask}/> 
       <Routes>
-      <Route path ='/' 
+      <Route path ='/react-task-tracker' 
       element ={<>
          {showAddTask && <AddTask onAdd = {addTask}/> }
       {tasks.length > 0 ? <Tasks tasks = {tasks} 
@@ -106,7 +106,7 @@ function App() {
       render = {(props) => {
         
       }}/>
-      <Route path ='/about' element = {<About/>} />
+      <Route path ='react-task-tracker/about' element = {<About/>} />
       </Routes>
       <Footer />
       </div>
