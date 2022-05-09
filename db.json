@@ -1,28 +1,16 @@
 {
   "tasks": [
     {
-      "text": "aa",
-      "day": "aa",
+      "text": "asda",
+      "day": "",
       "reminder": false,
-      "id": 7
+      "id": 11
     },
     {
-      "text": "fsdf",
-      "day": "sdfsf",
+      "text": "sad",
+      "day": "sd",
       "reminder": false,
-      "id": 8
-    },
-    {
-      "text": "fsf",
-      "day": "sdfs",
-      "reminder": false,
-      "id": 9
-    },
-    {
-      "text": "sfdfs",
-      "day": "fsf",
-      "reminder": false,
-      "id": 10
+      "id": 12
     }
   ]
 }
