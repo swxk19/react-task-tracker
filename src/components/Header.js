@@ -9,15 +9,15 @@ const Header = ({title, onAdd, showAdd}) => {
     // }
     const location = useLocation()
 
-    console.log(location.pathname)
-    
+     console.log(location.pathname)
+
     return (
         <header className = 'header'> 
             <h1>{title}</h1>
-            {location.pathname === '/react-task-tracker' && <Button 
+            {location.pathname === '/react-task-tracker' || '/react-task-tracker/' ? <Button 
             color = {showAdd ? 'red' : 'green'}
             text = {showAdd ? 'hide' : 'poot'}
-            onClick = {onAdd}/>}
+            onClick = {onAdd}/> : null }
         </header>
   )
 }
