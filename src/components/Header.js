@@ -14,10 +14,10 @@ const Header = ({title, onAdd, showAdd}) => {
     return (
         <header className = 'header'> 
             <h1>{title}</h1>
-            {location.pathname === '/react-task-tracker' || '/react-task-tracker/' ? <Button 
+            {<Button 
             color = {showAdd ? 'red' : 'green'}
             text = {showAdd ? 'hide' : 'poot'}
-            onClick = {onAdd}/> : null }
+            onClick = {onAdd}/> }
         </header>
   )
 }
