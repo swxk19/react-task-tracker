@@ -9,7 +9,7 @@ const Header = ({title, onAdd, showAdd}) => {
     // }
     const location = useLocation()
 
-     console.log(location.pathname)
+     console.log(location.pathname === "/react-task-tracker/about")
 
     return (
         <header className = 'header'> 
