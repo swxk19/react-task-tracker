@@ -9,6 +9,8 @@ const Header = ({title, onAdd, showAdd}) => {
     // }
     const location = useLocation()
 
+    console.log(location.pathname)
+    
     return (
         <header className = 'header'> 
             <h1>{title}</h1>
